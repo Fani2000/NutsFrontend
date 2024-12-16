@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import TheIndex from "./View/TheIndex.vue";
 </script>
 
 <template>
