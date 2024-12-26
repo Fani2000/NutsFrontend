@@ -47,7 +47,7 @@ const totalPrice = cartItems.reduce((sum, item) => sum + item.price * item.quant
           <!-- Product Info -->
           <div class="flex items-center space-x-4">
             <img
-                :src="item.image"
+                src="../assets/products/mixed-nuts.svg"
                 :alt="item.name"
                 class="w-16 h-16 object-cover rounded"
             />

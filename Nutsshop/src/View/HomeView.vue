@@ -37,7 +37,7 @@ const products = [
       <div v-for="product in products" :key="product.id"
         class="bg-white shadow rounded overflow-hidden group hover:shadow-lg transition-shadow">
         <!-- Image -->
-        <img :src="product.image" :alt="product.name" class="w-full h-48 object-cover" />
+        <img src="../assets/products/mixed-nuts.svg" :alt="product.name" class="w-full h-48 object-cover" />
 
         <!-- Content -->
         <div class="p-4">
