@@ -10,10 +10,12 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-[#070F2B] text-white py-3 mt-10 h-56">
+    <footer class="bg-[#070F2B] text-white py-3 h-38">
       <div class="flex flex-col items-center py-6">
-        <div>Links</div>
-        <div>© 2023 My Company - All Rights Reserved</div>
+        <div>Home</div>
+        <div>Contact us</div>
+        <div>About us</div>
+        <div>© 2023 NutShop - All Rights Reserved</div>
       </div>
     </footer>
   </div>

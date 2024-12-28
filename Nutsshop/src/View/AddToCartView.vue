@@ -32,7 +32,7 @@ const totalPrice = cartItems.reduce((sum, item) => sum + item.price * item.quant
 <template>
     <div class="container mx-auto px-4 py-10">
       <!-- Header -->
-      <h1 class="text-4xl font-bold text-blue-600 text-center">Your Cart</h1>
+      <h1 class="text-4xl font-bold text-green-600 text-center">Your Cart</h1>
       <p class="text-gray-600 text-center mt-2">
         Review and manage the items in your cart before checking out.
       </p>
@@ -52,7 +52,7 @@ const totalPrice = cartItems.reduce((sum, item) => sum + item.price * item.quant
                 class="w-16 h-16 object-cover rounded"
             />
             <div>
-              <h3 class="font-bold text-lg text-blue-600">{{ item.name }}</h3>
+              <h3 class="font-bold text-lg text-green-600">{{ item.name }}</h3>
               <p class="text-gray-600">Qty: {{ item.quantity }}</p>
             </div>
           </div>
@@ -78,8 +78,8 @@ const totalPrice = cartItems.reduce((sum, item) => sum + item.price * item.quant
             Continue Shopping
           </router-link>
           <router-link
-              to="/order-details"
-              class="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 transition"
+              to="/order-details/12345"
+              class="bg-green-600 px-6 py-2 text-white rounded hover:bg-green-500 transition"
           >
             Proceed to Checkout
           </router-link>

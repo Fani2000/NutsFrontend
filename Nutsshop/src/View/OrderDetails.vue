@@ -35,7 +35,7 @@ const order = {
   <div class="container mx-auto px-4 py-10">
     <!-- Order Header -->
     <div class="text-center">
-      <h1 class="text-4xl font-bold text-blue-600">Order Details</h1>
+      <h1 class="text-4xl font-bold text-green-600">Order Details</h1>
       <p class="text-gray-600 mt-2">Order ID: <span class="font-bold">{{ order.id }}</span></p>
       <p class="text-gray-600">Order Date: {{ order.date }}</p>
     </div>
@@ -48,7 +48,7 @@ const order = {
         <div class="flex items-center space-x-4">
           <img src="../assets/products/mixed-nuts.svg" :alt="item.name" class="w-16 h-16 object-cover rounded" />
           <div>
-            <h3 class="font-bold text-lg text-blue-600">{{ item.name }}</h3>
+            <h3 class="font-bold text-lg text-green-600">{{ item.name }}</h3>
             <p class="text-gray-600">Qty: {{ item.quantity }}</p>
           </div>
         </div>
@@ -73,7 +73,7 @@ const order = {
           </button>
         </router-link>
         <router-link to="/" class="px-4 py-2 rounded transition">
-          <button type="button" class="bg-blue-600 px-6 py-2 text-white rounded hover:bg-blue-500 transition">
+          <button type="button" class="bg-green-600 px-6 py-2 text-white rounded hover:bg-green-500 transition">
             Back To Home
           </button>
         </router-link>
