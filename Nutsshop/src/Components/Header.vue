@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="px-6 h-[330px] mb-6 bg-[url('./assets/images/background.svg')] bg-no-repeat bg-cover">
+  <div class="px-6 h-[330px] mb-6 bg-[url('../assets/images/background.svg')] bg-no-repeat bg-cover">
     <div class="relative top-10 flex flex-col gap-20 text-white bg-gradient-to-b from-transparent">
       <div class="flex justify-between">
         <div>
